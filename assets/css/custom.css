@@ -66,9 +66,10 @@ body {
 
 /* --- Header / Nav --- */
 .header {
-  background: var(--me-black) !important;
-  border-bottom: 2px solid var(--me-charcoal);
+  background: var(--me-white) !important;
+  border-bottom: 1px solid #e0e0e0;
   padding: var(--me-space-sm) 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
 .nav {
@@ -89,19 +90,18 @@ body {
 }
 
 .logo img {
-  height: 3rem;
+  height: 3.5rem;
   width: auto;
-  filter: brightness(0) invert(1);   /* força branco sobre fundo preto */
 }
 
 #menu-btn,
 .menu-btn {
-  color: var(--me-silver-light) !important;
+  color: var(--me-charcoal) !important;
 }
 
 nav a,
 .nav a {
-  color: var(--me-silver-light) !important;
+  color: var(--me-charcoal) !important;
   font-family: var(--me-font-heading);
   font-size: 0.875rem;
   font-weight: 500;
@@ -113,7 +113,7 @@ nav a,
 
 nav a:hover,
 .nav a:hover {
-  color: var(--me-white) !important;
+  color: var(--me-black) !important;
 }
 
 /* --- Hero Section --- */
@@ -605,7 +605,7 @@ nav a:hover,
 .footer__brand img {
   height: 2.5rem;
   margin-bottom: var(--me-space-md);
-  filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);  /* logo fica branco no footer escuro */
 }
 
 .footer__brand p {
