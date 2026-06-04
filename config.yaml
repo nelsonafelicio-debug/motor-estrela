@@ -1,7 +1,6 @@
 baseURL: "https://mestrela.nonossocaminho.pt/"
 languageCode: "pt-PT"
 title: "Motor Estrela — Peças Mercedes-Benz & Smart"
-theme: "PaperMod"
 enableRobotsTXT: true
 enableGitInfo: false
 enableEmoji: false
@@ -24,12 +23,8 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON
 
-# [SEO] taxonomies
-taxonomies:
-  category: "categories"
-  tag: "tags"
+taxonomies: {}
 
 # [SEO] menu principal
 menu:
