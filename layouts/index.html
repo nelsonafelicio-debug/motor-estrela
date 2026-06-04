@@ -1,0 +1,311 @@
+{{- define "main" }}
+
+{{- /* ============================================================
+     HERO SECTION
+     ============================================================ */}}
+<section class="me-hero" id="inicio" aria-label="Motor Estrela — apresentação">
+  <div class="me-hero__bg" aria-hidden="true"></div>
+  <div class="me-hero__content">
+    <img class="me-hero__logo"
+         src="/images/logo.jpg"
+         alt="Motor Estrela — Peças Mercedes-Benz e Smart"
+         width="400"
+         height="110"
+         loading="eager" />
+    <p class="me-hero__tagline">Coimbra · Portugal</p>
+    <h1 class="me-hero__title">
+      Peças <span>Mercedes-Benz</span> e <span>Smart</span><br />
+      com qualidade garantida
+    </h1>
+    <p class="me-hero__desc">
+      Especializados na comercialização de peças originais e usadas
+      para toda a gama Mercedes-Benz e Smart. Atendimento especializado
+      e peças de confiança para o seu veículo.
+    </p>
+    <div class="me-hero__cta">
+      <a href="/#produtos" class="btn-primary">Ver Produtos</a>
+      <a href="/#contactos" class="btn-secondary">Contactar</a>
+    </div>
+  </div>
+</section>
+
+{{- /* ============================================================
+     DIFERENCIAIS / FEATURES STRIP
+     ============================================================ */}}
+<section class="me-features" aria-label="Os nossos diferenciais">
+  <div class="me-features__inner">
+    <div class="me-feature">
+      <span class="me-feature__icon" aria-hidden="true">&#x2B50;</span>
+      <h2 class="me-feature__title">Qualidade Garantida</h2>
+      <p class="me-feature__desc">Peças originais e usadas inspecionadas antes da venda.</p>
+    </div>
+    <div class="me-feature">
+      <span class="me-feature__icon" aria-hidden="true">&#x1F527;</span>
+      <h2 class="me-feature__title">Vasta Gama</h2>
+      <p class="me-feature__desc">Cobrimos toda a gama Mercedes-Benz, desde a Classe A até à Classe S.</p>
+    </div>
+    <div class="me-feature">
+      <span class="me-feature__icon" aria-hidden="true">&#x1F4AC;</span>
+      <h2 class="me-feature__title">Apoio Especializado</h2>
+      <p class="me-feature__desc">Equipa técnica disponível por telefone e WhatsApp.</p>
+    </div>
+    <div class="me-feature">
+      <span class="me-feature__icon" aria-hidden="true">&#x1F4E6;</span>
+      <h2 class="me-feature__title">Envio Rápido</h2>
+      <p class="me-feature__desc">Entregamos em todo o território nacional e internacional.</p>
+    </div>
+  </div>
+</section>
+
+{{- /* ============================================================
+     SOBRE NOS SECTION
+     ============================================================ */}}
+<section class="me-sobre" id="sobre" aria-label="Sobre a Motor Estrela">
+  <div class="me-sobre__inner">
+    <div class="me-sobre__text">
+      <p class="me-section__label">Quem somos</p>
+      <h2 class="me-section__title">A Motor Estrela</h2>
+      <hr class="me-section__divider" />
+      <p class="me-sobre__desc">
+        A <strong>Motor Estrela</strong> é uma empresa portuguesa especializada na
+        comercialização de peças originais e usadas para veículos
+        <strong>Mercedes-Benz</strong> e <strong>Smart</strong>.
+      </p>
+      <p class="me-sobre__desc">
+        Localizados em Coimbra, contamos com vasta experiência no setor automóvel,
+        garantindo aos nossos clientes peças de qualidade, um atendimento técnico
+        especializado e preços competitivos.
+      </p>
+      <p class="me-sobre__desc">
+        A nossa missão é ser a referência nacional para quem procura peças
+        Mercedes-Benz e Smart — com rapidez, confiança e conhecimento técnico.
+      </p>
+
+      <div class="me-sobre__stats">
+        <div class="me-stat">
+          <span class="me-stat__number">20+</span>
+          <span class="me-stat__label">Anos de<br />Experiência</span>
+        </div>
+        <div class="me-stat">
+          <span class="me-stat__number">20+</span>
+          <span class="me-stat__label">Modelos<br />Mercedes</span>
+        </div>
+        <div class="me-stat">
+          <span class="me-stat__number">PT</span>
+          <span class="me-stat__label">Entregas<br />Nacionais</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="me-sobre__visual">
+      <div class="me-sobre__img-wrap">
+        <img class="me-sobre__img"
+             src="/images/sobre-nos.jpg"
+             alt="Instalações Motor Estrela em Coimbra — peças Mercedes-Benz e Smart"
+             width="580"
+             height="420"
+             loading="lazy" />
+      </div>
+      <div class="me-sobre__badge">Mercedes-Benz &amp; Smart · Coimbra</div>
+    </div>
+  </div>
+</section>
+
+{{- /* ============================================================
+     PRODUTOS / CATEGORIAS SECTION
+     ============================================================ */}}
+<section class="me-produtos me-section-full" id="produtos" aria-label="Os nossos produtos">
+  <div class="me-section" style="padding-bottom:0">
+    <div class="me-section__header">
+      <p class="me-section__label">O que oferecemos</p>
+      <h2 class="me-section__title">Categorias de Produtos</h2>
+      <hr class="me-section__divider" />
+    </div>
+
+    {{- /* Categorias principais */}}
+    <div class="me-categorias-grid">
+      <article class="me-categoria-card">
+        <div class="me-categoria-card__icon" aria-hidden="true">&#x1F697;</div>
+        <div class="me-categoria-card__body">
+          <h3 class="me-categoria-card__name">Peças Mercedes-Benz</h3>
+          <p class="me-categoria-card__desc">Peças originais e usadas para toda a gama de modelos Mercedes-Benz.</p>
+        </div>
+      </article>
+
+      <article class="me-categoria-card">
+        <div class="me-categoria-card__icon" aria-hidden="true">&#x1F699;</div>
+        <div class="me-categoria-card__body">
+          <h3 class="me-categoria-card__name">Peças Smart</h3>
+          <p class="me-categoria-card__desc">Componentes e peças para todos os modelos Smart Fortwo e Forfour.</p>
+        </div>
+      </article>
+
+      <article class="me-categoria-card">
+        <div class="me-categoria-card__icon" aria-hidden="true">&#x1F9F0;</div>
+        <div class="me-categoria-card__body">
+          <h3 class="me-categoria-card__name">Motor &amp; Transmissão</h3>
+          <p class="me-categoria-card__desc">Centralinas, motores, caixas de velocidades e componentes mecânicos.</p>
+        </div>
+      </article>
+
+      <article class="me-categoria-card">
+        <div class="me-categoria-card__icon" aria-hidden="true">&#x1F4A8;</div>
+        <div class="me-categoria-card__body">
+          <h3 class="me-categoria-card__name">Ar Condicionado</h3>
+          <p class="me-categoria-card__desc">Compressores, condensadores, capas e componentes de climatização.</p>
+        </div>
+      </article>
+
+      <article class="me-categoria-card">
+        <div class="me-categoria-card__icon" aria-hidden="true">&#x1FA84;</div>
+        <div class="me-categoria-card__body">
+          <h3 class="me-categoria-card__name">Elétrica &amp; Eletrónica</h3>
+          <p class="me-categoria-card__desc">Sensores, módulos, faróis, blocos de luzes e componentes elétricos.</p>
+        </div>
+      </article>
+
+      <article class="me-categoria-card">
+        <div class="me-categoria-card__icon" aria-hidden="true">&#x1F528;</div>
+        <div class="me-categoria-card__body">
+          <h3 class="me-categoria-card__name">Carroçaria &amp; Interior</h3>
+          <p class="me-categoria-card__desc">Painéis, pára-choques, retrovisores, bancos e acabamentos interiores.</p>
+        </div>
+      </article>
+
+      <article class="me-categoria-card">
+        <div class="me-categoria-card__icon" aria-hidden="true">&#x1F6E2;</div>
+        <div class="me-categoria-card__body">
+          <h3 class="me-categoria-card__name">Lubrificantes</h3>
+          <p class="me-categoria-card__desc">Óleos, fluidos e lubrificantes homologados Mercedes-Benz.</p>
+        </div>
+      </article>
+
+      <article class="me-categoria-card">
+        <div class="me-categoria-card__icon" aria-hidden="true">&#x1F3C6;</div>
+        <div class="me-categoria-card__body">
+          <h3 class="me-categoria-card__name">Acessórios &amp; Merchandising</h3>
+          <p class="me-categoria-card__desc">Acessórios originais e artigos de merchandising Mercedes-Benz e Smart.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  {{- /* Modelos Mercedes cobertos */}}
+  <div class="me-modelos-section me-section-full" style="padding: 3rem 2rem">
+    <div style="max-width:1200px;margin:0 auto">
+      <div class="me-section__header">
+        <p class="me-section__label">Cobertura completa</p>
+        <h3 class="me-section__title">Modelos Mercedes-Benz Disponíveis</h3>
+        <hr class="me-section__divider" />
+      </div>
+      <div class="me-modelos-grid" role="list" aria-label="Modelos Mercedes-Benz disponíveis">
+        {{- $modelos := slice "Classe A" "Classe B" "Classe C" "Classe E" "Classe S" "Classe CLA" "Classe CLK" "Classe CLS" "Classe CL" "Classe SLK" "Classe SL" "Classe GLA" "Classe GLK" "Classe GLC" "Classe GLE" "Classe GLS" "Classe GL" "Classe M" "Classe G" "Classe R" "EQC" "EQE" "Smart Fortwo" "Smart Forfour" }}
+        {{- range $modelos }}
+        <span class="me-modelo-tag" role="listitem">{{ . }}</span>
+        {{- end }}
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align:center; padding: 0 2rem 4rem">
+    <a href="https://motorestrela.pt" target="_blank" rel="noopener noreferrer" class="btn-primary" style="background:var(--me-black);color:var(--me-white) !important">
+      Ver Catálogo Completo na Loja Online
+    </a>
+  </div>
+</section>
+
+{{- /* ============================================================
+     CONTACTOS SECTION
+     ============================================================ */}}
+<section class="me-contactos" id="contactos" aria-label="Contactos Motor Estrela">
+  <div class="me-contactos__inner">
+    <div>
+      <p class="me-section__label">Fale connosco</p>
+      <h2 class="me-section__title">Contactos</h2>
+      <hr class="me-section__divider" style="margin:1rem 0 2rem" />
+
+      <div class="me-contactos__info">
+        <div class="me-contacto-item">
+          <div class="me-contacto-item__icon" aria-hidden="true">&#x1F4DE;</div>
+          <div>
+            <p class="me-contacto-item__label">Telefone</p>
+            <a class="me-contacto-item__value"
+               href="tel:+351239068896"
+               aria-label="Ligar para +351 239 068 896">
+              +351 239 068 896
+            </a>
+          </div>
+        </div>
+
+        <div class="me-contacto-item">
+          <div class="me-contacto-item__icon" aria-hidden="true">&#x1F4AC;</div>
+          <div>
+            <p class="me-contacto-item__label">WhatsApp</p>
+            <a class="me-contacto-item__value"
+               href="https://wa.me/351914095059"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="WhatsApp +351 914 095 059">
+              +351 914 095 059
+            </a>
+          </div>
+        </div>
+
+        <div class="me-contacto-item">
+          <div class="me-contacto-item__icon" aria-hidden="true">&#x2709;</div>
+          <div>
+            <p class="me-contacto-item__label">Email</p>
+            <a class="me-contacto-item__value"
+               href="mailto:geral@motorestrela.pt"
+               aria-label="Email geral@motorestrela.pt">
+              geral@motorestrela.pt
+            </a>
+          </div>
+        </div>
+
+        <div class="me-contacto-item">
+          <div class="me-contacto-item__icon" aria-hidden="true">&#x1F4CD;</div>
+          <div>
+            <p class="me-contacto-item__label">Localização</p>
+            <span class="me-contacto-item__value">Coimbra, Portugal</span>
+          </div>
+        </div>
+
+        <div class="me-contacto-item">
+          <div class="me-contacto-item__icon" aria-hidden="true">&#x1F550;</div>
+          <div>
+            <p class="me-contacto-item__label">Horário</p>
+            <span class="me-contacto-item__value">Segunda a Sexta: 9h — 18h</span>
+          </div>
+        </div>
+
+        <div class="me-contacto-item">
+          <div class="me-contacto-item__icon" aria-hidden="true">&#x1F426;</div>
+          <div>
+            <p class="me-contacto-item__label">Facebook</p>
+            <a class="me-contacto-item__value"
+               href="https://www.facebook.com/mestrela.lda.9"
+               target="_blank"
+               rel="noopener noreferrer">
+              facebook.com/mestrela.lda.9
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="me-contactos__map">
+      {{- /* [SEC] Google Maps embed — sem API key, iframe direto, sem tracking adicional */}}
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48234.9!2d-8.4292!3d40.2033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd22f938e5ddabb1%3A0x6f3bfdb7861b7c14!2sCoimbra!5e0!3m2!1spt!2spt!4v1000000000000"
+        title="Motor Estrela — Localização em Coimbra"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen=""
+        aria-label="Mapa de Coimbra onde a Motor Estrela está localizada">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+{{- end }}

@@ -1,0 +1,70 @@
+# Motor Estrela — Hugo Deploy to GitHub Pages
+# [SEC] All action versions are pinned to specific tags (no @latest)
+
+name: Deploy Hugo Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+# [SEC] Minimal permissions — only what is needed
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    name: Build and Deploy
+    runs-on: ubuntu-22.04
+
+    steps:
+      # [SEC] pinned to v4 tag
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true      # fetch PaperMod theme submodule
+          fetch-depth: 0        # full history for .GitInfo and .Lastmod
+
+      # [SEC] pinned to v3 tag; hugo-version pinned to exact release
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.145.0"   # [SEC] pinned — matches local dev version
+          extended: true             # required for Hugo Pipes (CSS minify)
+
+      # [SEO] --minify reduces HTML/CSS/JS size; improves Core Web Vitals
+      - name: Build site
+        run: hugo --minify --gc
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+
+      # Verify build artefacts exist [SEO]
+      - name: Verify build output
+        run: |
+          echo "--- Build artefacts ---"
+          ls -la public/
+          echo "--- Checking SEO files ---"
+          test -f public/sitemap.xml  && echo "[OK] sitemap.xml"     || echo "[FAIL] sitemap.xml missing"
+          test -f public/robots.txt   && echo "[OK] robots.txt"      || echo "[FAIL] robots.txt missing"
+          test -f public/index.html   && echo "[OK] index.html"      || echo "[FAIL] index.html missing"
+          echo "--- OG tags check ---"
+          grep -q 'og:title'       public/index.html && echo "[OK] og:title"       || echo "[FAIL] og:title"
+          grep -q 'og:description' public/index.html && echo "[OK] og:description" || echo "[FAIL] og:description"
+          grep -q 'og:image'       public/index.html && echo "[OK] og:image"       || echo "[FAIL] og:image"
+          grep -q 'twitter:card'   public/index.html && echo "[OK] twitter:card"   || echo "[FAIL] twitter:card"
+          grep -q 'canonical'      public/index.html && echo "[OK] canonical"      || echo "[FAIL] canonical"
+          grep -q 'application/ld+json' public/index.html && echo "[OK] JSON-LD"  || echo "[FAIL] JSON-LD"
+
+      # [SEC] pinned to v4 tag; deploys ./public to gh-pages branch
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          force_orphan: true        # keep gh-pages branch clean
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_message: "Deploy: ${{ github.sha }}"

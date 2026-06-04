@@ -1,0 +1,840 @@
+<!doctype html>
+<html lang="pt">
+
+  <head>
+    
+      
+  <meta charset="utf-8">
+
+
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+
+  <title>erro 404</title>
+  <meta name="description" content="Esta página não pode ser encontrada">
+  <meta name="keywords" content="">
+      
+                  <link rel="alternate" href="https://motorestrela.pt/pt/página-não-encontrada" hreflang="pt-pt">
+                  <link rel="alternate" href="https://motorestrela.pt/gb/page-not-found" hreflang="en-gb">
+                  <link rel="alternate" href="https://motorestrela.pt/de/seite-nicht-gefunden" hreflang="de-de">
+        
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  <link rel="icon" type="image/vnd.microsoft.icon" href="https://motorestrela.pt/img/favicon.ico?1722595715">
+  <link rel="shortcut icon" type="image/x-icon" href="https://motorestrela.pt/img/favicon.ico?1722595715">
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;display=swap&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" type="text/css" media="all">
+  <link rel="stylesheet" href="https://motorestrela.pt/themes/theme_ecolife_tools2/assets/cache/theme-29117f120.css" type="text/css" media="all">
+
+
+
+
+  
+
+  <script type="text/javascript">
+        var prestashop = {"cart":{"products":[],"totals":{"total":{"type":"total","label":"Total","amount":0,"value":"0,00\u00a0\u20ac"},"total_including_tax":{"type":"total","label":"Total (com IVA)","amount":0,"value":"0,00\u00a0\u20ac"},"total_excluding_tax":{"type":"total","label":"Total (sem IVA)","amount":0,"value":"0,00\u00a0\u20ac"}},"subtotals":{"products":{"type":"products","label":"Subtotal","amount":0,"value":"0,00\u00a0\u20ac"},"discounts":null,"shipping":{"type":"shipping","label":"Envio","amount":0,"value":""},"tax":null},"products_count":0,"summary_string":"0 artigos","vouchers":{"allowed":0,"added":[]},"discounts":[],"minimalPurchase":0,"minimalPurchaseRequired":""},"currency":{"id":1,"name":"Euro","iso_code":"EUR","iso_code_num":"978","sign":"\u20ac"},"customer":{"lastname":null,"firstname":null,"email":null,"birthday":null,"newsletter":null,"newsletter_date_add":null,"optin":null,"website":null,"company":null,"siret":null,"ape":null,"is_logged":false,"gender":{"type":null,"name":null},"addresses":[]},"country":{"id_zone":"1","id_currency":"0","call_prefix":"351","iso_code":"PT","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNN-NNN","display_tax_label":"1","name":"Portugal","id":15},"language":{"name":"Portugu\u00eas (Portuguese)","iso_code":"pt","locale":"pt-PT","language_code":"pt-pt","active":"1","is_rtl":"0","date_format_lite":"Y-m-d","date_format_full":"Y-m-d H:i:s","id":1},"page":{"title":"A p\u00e1gina que procura n\u00e3o foi encontrada.","canonical":null,"meta":{"title":"erro 404","description":"Esta p\u00e1gina n\u00e3o pode ser encontrada","keywords":"","robots":"index"},"page_name":"pagenotfound","body_classes":{"lang-pt":true,"lang-rtl":false,"country-PT":true,"currency-EUR":true,"layout-full-width":true,"page-pagenotfound":true,"tax-display-enabled":true,"page-customer-account":false},"admin_notifications":[],"password-policy":{"feedbacks":{"0":"Muito fraco","1":"Fraco","2":"M\u00e9dio","3":"Forte","4":"Muito forte","Straight rows of keys are easy to guess":"As linhas rectas de teclas s\u00e3o f\u00e1ceis de adivinhar","Short keyboard patterns are easy to guess":"Os padr\u00f5es curtos do teclado s\u00e3o f\u00e1ceis de adivinhar","Use a longer keyboard pattern with more turns":"Utilizar um padr\u00e3o de teclado mais longo com mais voltas","Repeats like \"aaa\" are easy to guess":"Repeti\u00e7\u00f5es como \"aaa\" s\u00e3o f\u00e1ceis de adivinhar","Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\"":"Repeti\u00e7\u00f5es como \"abcabcabc\" s\u00e3o apenas ligeiramente mais dif\u00edceis de adivinhar do que \"abc\"","Sequences like abc or 6543 are easy to guess":"Sequ\u00eancias como \"abc\" ou \"6543\" s\u00e3o f\u00e1ceis de adivinhar","Recent years are easy to guess":"Os \u00faltimos anos s\u00e3o f\u00e1ceis de adivinhar","Dates are often easy to guess":"As datas s\u00e3o muitas vezes f\u00e1ceis de adivinhar","This is a top-10 common password":"Esta \u00e9 uma das 10 palavras-passe mais comuns","This is a top-100 common password":"Esta \u00e9 uma das top-100 palavras-passe mais usadas e comuns","This is a very common password":"Esta \u00e9 uma palavra-passe muito comum","This is similar to a commonly used password":"Isto \u00e9 semelhante a uma palavra-passe comummente utilizada","A word by itself is easy to guess":"Uma palavra por si s\u00f3 \u00e9 f\u00e1cil de adivinhar","Names and surnames by themselves are easy to guess":"Os nomes e apelidos por si s\u00f3 s\u00e3o f\u00e1ceis de adivinhar","Common names and surnames are easy to guess":"Os nomes comuns e os apelidos s\u00e3o f\u00e1ceis de adivinhar","Use a few words, avoid common phrases":"Utilizar poucas palavras, evitar frases comuns","No need for symbols, digits, or uppercase letters":"N\u00e3o s\u00e3o necess\u00e1rios s\u00edmbolos, d\u00edgitos ou letras mai\u00fasculas","Avoid repeated words and characters":"Evitar palavras e caracteres repetidos","Avoid sequences":"Evitar sequ\u00eancias","Avoid recent years":"Evitar os \u00faltimos anos","Avoid years that are associated with you":"Evitar os anos que lhe est\u00e3o associados","Avoid dates and years that are associated with you":"Evitar datas e anos que estejam associados a si","Capitalization doesn't help very much":"A capitaliza\u00e7\u00e3o n\u00e3o ajuda muito","All-uppercase is almost as easy to guess as all-lowercase":"As mai\u00fasculas s\u00e3o quase t\u00e3o f\u00e1ceis de adivinhar como as min\u00fasculas","Reversed words aren't much harder to guess":"As palavras invertidas n\u00e3o s\u00e3o muito mais dif\u00edceis de adivinhar","Predictable substitutions like '@' instead of 'a' don't help very much":"As substitui\u00e7\u00f5es previs\u00edveis como \"@\" em vez de \"a\" n\u00e3o ajudam muito","Add another word or two. Uncommon words are better.":"Acrescentar mais uma ou duas palavras. As palavras pouco comuns s\u00e3o melhores."}}},"shop":{"name":"Motorestrela, Lda","logo":"https:\/\/motorestrela.pt\/img\/logo-1722595715.jpg","stores_icon":"https:\/\/motorestrela.pt\/img\/logo_stores.png","favicon":"https:\/\/motorestrela.pt\/img\/favicon.ico"},"core_js_public_path":"\/themes\/","urls":{"base_url":"https:\/\/motorestrela.pt\/","current_url":"https:\/\/motorestrela.pt\/img\/cms\/motor-estrela-logo-1616508584.jpg","shop_domain_url":"https:\/\/motorestrela.pt","img_ps_url":"https:\/\/motorestrela.pt\/img\/","img_cat_url":"https:\/\/motorestrela.pt\/img\/c\/","img_lang_url":"https:\/\/motorestrela.pt\/img\/l\/","img_prod_url":"https:\/\/motorestrela.pt\/img\/p\/","img_manu_url":"https:\/\/motorestrela.pt\/img\/m\/","img_sup_url":"https:\/\/motorestrela.pt\/img\/su\/","img_ship_url":"https:\/\/motorestrela.pt\/img\/s\/","img_store_url":"https:\/\/motorestrela.pt\/img\/st\/","img_col_url":"https:\/\/motorestrela.pt\/img\/co\/","img_url":"https:\/\/motorestrela.pt\/themes\/theme_ecolife_tools2\/assets\/img\/","css_url":"https:\/\/motorestrela.pt\/themes\/theme_ecolife_tools2\/assets\/css\/","js_url":"https:\/\/motorestrela.pt\/themes\/theme_ecolife_tools2\/assets\/js\/","pic_url":"https:\/\/motorestrela.pt\/upload\/","theme_assets":"https:\/\/motorestrela.pt\/themes\/theme_ecolife_tools2\/assets\/","theme_dir":"https:\/\/motorestrela.pt\/themes\/theme_ecolife_tools2\/","pages":{"address":"https:\/\/motorestrela.pt\/pt\/endereco","addresses":"https:\/\/motorestrela.pt\/pt\/enderecos","authentication":"https:\/\/motorestrela.pt\/pt\/inicio-de-sessao","manufacturer":"https:\/\/motorestrela.pt\/pt\/marcas","cart":"https:\/\/motorestrela.pt\/pt\/carrinho","category":"https:\/\/motorestrela.pt\/pt\/index.php?controller=category","cms":"https:\/\/motorestrela.pt\/pt\/index.php?controller=cms","contact":"https:\/\/motorestrela.pt\/pt\/contacte-nos","discount":"https:\/\/motorestrela.pt\/pt\/descontos","guest_tracking":"https:\/\/motorestrela.pt\/pt\/acompanhamento-visitantes","history":"https:\/\/motorestrela.pt\/pt\/historico-de-encomendas","identity":"https:\/\/motorestrela.pt\/pt\/identidade","index":"https:\/\/motorestrela.pt\/pt\/","my_account":"https:\/\/motorestrela.pt\/pt\/a-minha-conta","order_confirmation":"https:\/\/motorestrela.pt\/pt\/confirmacao-encomenda","order_detail":"https:\/\/motorestrela.pt\/pt\/index.php?controller=order-detail","order_follow":"https:\/\/motorestrela.pt\/pt\/acompanhar-encomenda","order":"https:\/\/motorestrela.pt\/pt\/encomenda","order_return":"https:\/\/motorestrela.pt\/pt\/index.php?controller=order-return","order_slip":"https:\/\/motorestrela.pt\/pt\/nota-de-encomenda","pagenotfound":"https:\/\/motorestrela.pt\/pt\/p\u00e1gina-n\u00e3o-encontrada","password":"https:\/\/motorestrela.pt\/pt\/recuperar-palavra-passe","pdf_invoice":"https:\/\/motorestrela.pt\/pt\/index.php?controller=pdf-invoice","pdf_order_return":"https:\/\/motorestrela.pt\/pt\/index.php?controller=pdf-order-return","pdf_order_slip":"https:\/\/motorestrela.pt\/pt\/index.php?controller=pdf-order-slip","prices_drop":"https:\/\/motorestrela.pt\/pt\/promocoes","product":"https:\/\/motorestrela.pt\/pt\/index.php?controller=product","registration":"https:\/\/motorestrela.pt\/pt\/index.php?controller=registration","search":"https:\/\/motorestrela.pt\/pt\/pesquisa","sitemap":"https:\/\/motorestrela.pt\/pt\/mapa do site","stores":"https:\/\/motorestrela.pt\/pt\/lojas","supplier":"https:\/\/motorestrela.pt\/pt\/fornecedores","new_products":"https:\/\/motorestrela.pt\/pt\/novos-produtos","brands":"https:\/\/motorestrela.pt\/pt\/marcas","register":"https:\/\/motorestrela.pt\/pt\/index.php?controller=registration","order_login":"https:\/\/motorestrela.pt\/pt\/encomenda?login=1"},"alternative_langs":{"pt-pt":"https:\/\/motorestrela.pt\/pt\/p\u00e1gina-n\u00e3o-encontrada","en-gb":"https:\/\/motorestrela.pt\/gb\/page-not-found","de-de":"https:\/\/motorestrela.pt\/de\/seite-nicht-gefunden"},"actions":{"logout":"https:\/\/motorestrela.pt\/pt\/?mylogout="},"no_picture_image":{"bySize":{"small_default":{"url":"https:\/\/motorestrela.pt\/img\/p\/pt-default-small_default.jpg","width":98,"height":98},"cart_default":{"url":"https:\/\/motorestrela.pt\/img\/p\/pt-default-cart_default.jpg","width":125,"height":125},"home_default":{"url":"https:\/\/motorestrela.pt\/img\/p\/pt-default-home_default.jpg","width":360,"height":360},"medium_default":{"url":"https:\/\/motorestrela.pt\/img\/p\/pt-default-medium_default.jpg","width":452,"height":452},"large_default":{"url":"https:\/\/motorestrela.pt\/img\/p\/pt-default-large_default.jpg","width":800,"height":800}},"small":{"url":"https:\/\/motorestrela.pt\/img\/p\/pt-default-small_default.jpg","width":98,"height":98},"medium":{"url":"https:\/\/motorestrela.pt\/img\/p\/pt-default-home_default.jpg","width":360,"height":360},"large":{"url":"https:\/\/motorestrela.pt\/img\/p\/pt-default-large_default.jpg","width":800,"height":800},"legend":""}},"configuration":{"display_taxes_label":true,"display_prices_tax_incl":true,"is_catalog":true,"show_prices":true,"opt_in":{"partner":false},"quantity_discount":{"type":"discount","label":"Desconto por unidade"},"voucher_enabled":0,"return_enabled":1},"field_required":[],"breadcrumb":{"links":[{"title":"P\u00e1gina inicial","url":"https:\/\/motorestrela.pt\/pt\/"}],"count":1},"link":{"protocol_link":"https:\/\/","protocol_content":"https:\/\/"},"time":1780591397,"static_token":"76202356ea79328b48f87d65f6a6103b","token":"69db99c13aeed0655787bfaff530c595","debug":false};
+        var psemailsubscription_subscription = "https:\/\/motorestrela.pt\/pt\/module\/ps_emailsubscription\/subscription";
+      </script>
+
+
+
+  <style type="text/css">
+.animation1 {
+	 -webkit-transition-duration: 500ms !important;
+    -moz-transition-duration: 500ms !important;
+    -o-transition-duration: 500ms !important;
+    transition-duration: 500ms !important;
+}
+
+</style>
+
+
+
+    
+  </head>
+
+  <body itemscope itemtype="http://schema.org/WebPage" id="pagenotfound"  class="lang-pt country-pt currency-eur layout-full-width page-pagenotfound tax-display-enabled"> 
+
+    
+      
+    
+
+    <main>
+      
+              
+
+      <header id="header">
+        
+          
+<div class="header-banner">
+	
+</div>
+
+
+
+<nav class="header-nav">
+	<div class="container"> 
+		<div class="hidden-md-down">
+			
+		</div>
+	</div>
+	<div class="container">
+		<div class="hidden-lg-up  mobile">
+			<div id="_mobile_static"></div>
+			<div class="row row-mobile">
+				<div class="col-mobile col-md-4 col-xs-4">
+					<div class="float-xs-left" id="menu-icon">
+						<i class="ion-android-menu"></i>
+					</div>
+					<div id="mobile_top_menu_wrapper" class="row hidden-lg-up" style="display:none;">
+						<div class="top-header-mobile">							
+							<div id="_mobile_compare"></div>
+							<div id="_mobile_wishtlist"></div>
+						</div>
+						<div id="_mobile_currency_selector"></div>
+						<div id="_mobile_language_selector"></div>				
+						<div class="menu-close"> 
+							menu <i class="material-icons float-xs-right">arrow_back</i>
+						</div>
+						<div class="menu-tabs">							
+							<div class="js-top-menu-bottom">												
+								<div id="_mobile_megamenu"></div>
+								<div id="_mobile_vegamenu"></div>
+								
+							</div>
+							
+						</div>
+					 </div>
+				</div>
+				<div class="col-mobile col-md-4 col-xs-4 mobile-center">
+					<div class="top-logo" id="_mobile_logo"></div>
+				</div>
+				<div class="col-mobile col-md-4 col-xs-4 mobile-right">
+					<div id="_mobile_cart_block"></div>
+					<div id="_mobile_user_info"></div>
+				</div>
+			</div>
+			<div id="_mobile_search_category"></div>
+		</div>
+	</div>
+</nav>
+
+
+
+<div class="header-top hidden-md-down">
+	<div class="container">
+		<div class="row">
+			<div class="col col col-md-2" id="_desktop_logo">
+								<a href="https://motorestrela.pt/">
+				<img class="logo img-responsive" src="https://motorestrela.pt/img/logo-1722595715.jpg" alt="Motorestrela, Lda">
+				</a>
+							</div>
+			<div class=" col col-md-10 col-sm-12 position-static">
+				<div id="_desktop_contact_link">
+  <div class="contact-link">
+	<div class="phone">
+		<p>chamada para rede móvel nacional:</p>
+		<a href="tel:+351 239 068 896">+351 239 068 896</a>
+	</div>
+  </div>
+</div>
+<!-- Block search module TOP -->
+<div id="_desktop_search_block" class="col-md-12 col-sm-12 col-xs-12">
+	<div id="search_widget" class="search_top" data-search-controller-url="//motorestrela.pt/pt/pesquisa">
+		<form method="get" action="//motorestrela.pt/pt/pesquisa">
+			<input type="hidden" name="controller" value="search">
+			<input class="text_input" type="text" name="s" value="" placeholder="Procurar" aria-label="Procurar">
+			<button type="submit">
+				<i class="icon-search"></i>
+			</button>
+		</form>
+	</div>
+</div>
+<!-- /Block search module TOP -->
+
+			</div>
+			
+		</div>
+	</div>
+
+</div>
+<div class="header-bottom top_bg hidden-md-down">
+	<div class="container">
+		<div id="_desktop_megamenu" class="use-sticky ">
+<div class="pos-menu-horizontal">
+	<ul class="menu-content"> 
+			 			
+				<li class=" menu-item menu-item1   ">
+					
+						<a href="https://motorestrela.pt/pt/" >
+						
+												<span>Página inicial</span>
+																	</a>
+																									</li>
+			 			
+				<li class=" menu-item menu-item2  hasChild ">
+					
+						<a href="/2-inicio" >
+						
+												<span>Peças Mercedes</span>
+												 <i class="hidden-md-down ion-ios-arrow-down"></i>					</a>
+																																	
+						<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>						<div class="pos-sub-menu menu-dropdown col-xs-12 col-sm-12  menu_slidedown">
+						<div class="pos-sub-inner">
+													<div class="pos-menu-row row ">
+																											<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/25-classe-a" class="column_title">Classe A</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/35-classe-b" class="column_title">Classe B</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/36-classe-c" class="column_title">Classe C</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/39-classe-e" class="column_title">Classe E</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/40-classe-eqe" class="column_title">Classe EQE</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/41-classe-s" class="column_title">Classe S</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/43-classe-clk" class="column_title">Classe CLK</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/42-classe-cla" class="column_title">Classe CLA</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/45-classe-cl" class="column_title">Classe CL</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/44-classe-cls" class="column_title">Classe CLS</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/46-classe-slk" class="column_title">Classe SLK</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/47-classe-sl" class="column_title">Classe SL</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/48-classe-gls" class="column_title">Classe GLS</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/50-classe-m" class="column_title">Classe M</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/52-" class="column_title">Classe G</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/55-classe-eqc" class="column_title">Classe EQC</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/49-classe-gle" class="column_title">Classe GLE</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/56-classe-glc" class="column_title">Classe GLC</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/57-classe-glk" class="column_title">Classe GLK</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/53-classe-gl" class="column_title">Classe GL</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/58-classe-gla" class="column_title">Classe GLA</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																			<div class="pos-menu-col col-xs-6 col-sm-2  ">
+																																				<a href="https://motorestrela.pt/pt/59-classe-r" class="column_title">Classe R</a>
+																								<span class="icon-drop-mobile"><i class="material-icons add">add </i><i class="material-icons remove">remove </i></span>
+																																</div>
+																								</div>
+												
+						</div>
+						</div>
+															</li>
+			 			
+				<li class=" menu-item menu-item8   ">
+					
+						<a href="https://motorestrela.pt/pt/38-smart" >
+						
+												<span>Smart</span>
+																	</a>
+																									</li>
+			 			
+				<li class=" menu-item menu-item10   ">
+					
+						<a href="https://motorestrela.pt/pt/33-acessorios-lubrificantes" >
+						
+												<span>Acessórios &amp; Lubrificantes</span>
+																	</a>
+																									</li>
+			 			
+				<li class=" menu-item menu-item6   ">
+					
+						<a href="https://motorestrela.pt/pt/32-" >
+						
+												<span>Merchandising</span>
+																	</a>
+																									</li>
+			</ul>
+	
+</div>
+</div><div id="_desktop_language_selector">
+	<div class="language-selector-wrapper selector-block hidden-md-down">
+	 <span id="language-selector-label" class=" selector-label hidden-lg-down">Language :</span>
+	<div class="language-selector localiz_block  dropdown js-dropdown">
+	  <button data-toggle="dropdown" class=" btn-unstyle" aria-haspopup="true" aria-expanded="false" aria-label="Idiomas">
+		<img src="https://motorestrela.pt/img/l/1.jpg" alt="" width="16" height="11" />
+		<span class="expand-more">Português</span>
+		<i class="material-icons">expand_more</i>
+	  </button>
+	  <ul class="dropdown-menu" aria-labelledby="language-selector-label">
+				  <li  class="current" >
+			<a href="https://motorestrela.pt/pt/página-não-encontrada" class="dropdown-item"><img src="https://motorestrela.pt/img/l/1.jpg" alt="" width="16" height="11" />Português</a>
+		  </li>
+				  <li >
+			<a href="https://motorestrela.pt/gb/page-not-found" class="dropdown-item"><img src="https://motorestrela.pt/img/l/2.jpg" alt="" width="16" height="11" />English GB</a>
+		  </li>
+				  <li >
+			<a href="https://motorestrela.pt/de/seite-nicht-gefunden" class="dropdown-item"><img src="https://motorestrela.pt/img/l/3.jpg" alt="" width="16" height="11" />Deutsch</a>
+		  </li>
+			  </ul>
+	</div>
+	</div>
+	<div class="language-selector-wrapper hidden-lg-up">
+		<div class="selector-mobile dropdown js-dropdown">
+		  <button data-toggle="dropdown" class=" btn-unstyle" aria-haspopup="true" aria-expanded="false" aria-label="Idiomas">
+			<img src="https://motorestrela.pt/img/l/1.jpg" alt="" width="16" height="11" />
+			<span class="expand-more">Português</span>
+			<i class="material-icons">expand_more</i>
+		  </button>
+		  <ul class="dropdown-menu" aria-labelledby="language-selector-label">
+						  <li  class="current" >
+				<a href="https://motorestrela.pt/pt/página-não-encontrada" class="dropdown-item"><img src="https://motorestrela.pt/img/l/1.jpg" alt="" width="16" height="11" />Português</a>
+			  </li>
+						  <li >
+				<a href="https://motorestrela.pt/gb/page-not-found" class="dropdown-item"><img src="https://motorestrela.pt/img/l/2.jpg" alt="" width="16" height="11" />English GB</a>
+			  </li>
+						  <li >
+				<a href="https://motorestrela.pt/de/seite-nicht-gefunden" class="dropdown-item"><img src="https://motorestrela.pt/img/l/3.jpg" alt="" width="16" height="11" />Deutsch</a>
+			  </li>
+					  </ul>
+		</div>
+	</div>
+</div>
+<div id="_desktop_user_info">
+	<div class="user-info-block selector-block">
+		<div class="currency-selector localiz_block dropdown js-dropdown">
+			<button data-target="#" data-toggle="dropdown" class=" btn-unstyle hidden-md-down">
+			  <span class="expand-more">Área de cliente</span>
+			  <i class="material-icons">expand_more</i>
+			</button>
+			<button data-target="#" data-toggle="dropdown" class=" btn-unstyle hidden-lg-up">
+				<i class="ion-ios-contact"></i>
+			</button>
+			<ul class="dropdown-menu">
+			<li>
+				<a href="https://motorestrela.pt/pt/a-minha-conta" rel="nofollow" class="dropdown-item">Conta pessoal</a>
+			</li>
+			<li>
+			<li>
+				<a href="https://motorestrela.pt/pt/carrinho?action=show" class="dropdown-item" >Finalizar encomenda</a>
+			</li>
+			<li>
+								  <a
+					href="https://motorestrela.pt/pt/a-minha-conta"
+					title="Entre na sua área de cliente"
+					rel="nofollow" class="dropdown-item"
+				  >
+					<span>Entrar na loja</span>
+				  </a>
+			  </li>
+						</ul>
+		</div>
+	</div>
+	
+</div>
+
+	</div>
+
+</div>
+
+
+        
+      </header>
+		      
+        
+<aside id="notifications">
+  <div class="container">
+    
+    
+    
+      </div>
+</aside>
+      
+		
+			<div class="breadcrumb_container " data-depth="1">
+	<div class="container">
+				<nav data-depth="1" class="breadcrumb">
+		  <ol itemscope itemtype="http://schema.org/BreadcrumbList">
+			
+			  				
+				  <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+					<a itemprop="item" href="https://motorestrela.pt/pt/">
+					  <span itemprop="name">Página inicial</span>
+					</a>
+					<meta itemprop="position" content="1">
+				  </li>
+				
+			  			
+		  </ol>
+		</nav>
+	</div>
+</div>
+
+		
+     <div id="wrapper">
+        
+        <div class="container">
+			<div class="row">
+			  
+
+			  
+  <div id="content-wrapper" class="col-xs-12">
+    
+    
+
+  <section id="main">
+
+    
+      
+        <header class="page-header">
+          <h1>
+  A página que procura não foi encontrada.
+</h1>
+        </header>
+      
+    
+
+    
+  <section id="content" class="page-content page-not-found">
+  
+
+    <h4>Lamentamos o inconveniente.</h4>
+    <p>Procurar novamente</p>
+
+    
+      <!-- Block search module TOP -->
+<div id="_desktop_search_block" class="col-md-12 col-sm-12 col-xs-12">
+	<div id="search_widget" class="search_top" data-search-controller-url="//motorestrela.pt/pt/pesquisa">
+		<form method="get" action="//motorestrela.pt/pt/pesquisa">
+			<input type="hidden" name="controller" value="search">
+			<input class="text_input" type="text" name="s" value="" placeholder="Procurar" aria-label="Procurar">
+			<button type="submit">
+				<i class="icon-search"></i>
+			</button>
+		</form>
+	</div>
+</div>
+<!-- /Block search module TOP -->
+
+    
+
+    
+      
+    
+
+  
+</section>
+
+
+    
+      <footer class="page-footer">
+        
+          <!-- Footer content -->
+        
+      </footer>
+    
+
+  </section>
+
+
+    
+  </div>
+
+
+			  
+			</div>
+				
+        </div>
+			
+        
+    </div>
+
+    <footer id="footer">
+        
+          <div class="footer-container">
+	<div class="footer_top">
+		<div class="container">
+		    <div class="row">
+			   
+					<div class="col-md-4 links footer_block">
+	<h3 class=" hidden-sm-down">Newsletter</h3>
+	<div class="title clearfix hidden-md-up" data-target="#footer_1" data-toggle="collapse">
+		<h3>Newsletter</h3>
+		<span class="float-xs-right">
+			<span class="navbar-toggler collapse-icons">
+				<i class="material-icons add">keyboard_arrow_down</i>
+				<i class="material-icons remove">keyboard_arrow_up</i>
+			</span>
+		</span>
+	</div>
+     <div id="footer_1" class="collapse footer_list">
+    
+          <div class="block_newsletter ft_newsletter col-footer" id="blockEmailSubscription_displayFooter" style="margin:0;"> 
+	<p></p>
+	<div class="col col_form">
+		<form action="https://motorestrela.pt/pt/34-mercedes-pecas?q=Interior%2Be%2BConforto%2B%26%2BAcessorios-Pilar&amp;page=7#blockEmailSubscription_displayFooter" method="post">
+			<input
+			class="btn btn-primary"
+			name="submitNewsletter"
+			type="submit"
+			value="Registar"
+			>
+			<div class="input-wrapper">
+			<input
+			name="email"
+			type="email"
+			value=""
+			placeholder="O seu email"
+			>
+			</div>
+			<input type="hidden" name="action" value="0">
+			<div class="clearfix"></div>
+									
+    <div class="gdpr_consent gdpr_module_21">
+        <span class="custom-checkbox">
+            <label class="psgdpr_consent_message">
+                <input id="psgdpr_consent_checkbox_21" name="psgdpr_consent_checkbox" type="checkbox" value="1" class="psgdpr_consent_checkboxes_21">
+                <span><i class="material-icons rtl-no-flip checkbox-checked psgdpr_consent_icon"></i></span>
+                <span>Aceito que a loja trate os meus dados pessoais</span>            </label>
+        </span>
+    </div>
+
+
+<script type="text/javascript">
+    var psgdpr_front_controller = "https://motorestrela.pt/pt/module/psgdpr/FrontAjaxGdpr";
+    psgdpr_front_controller = psgdpr_front_controller.replace(/\amp;/g,'');
+    var psgdpr_id_customer = "0";
+    var psgdpr_customer_token = "da39a3ee5e6b4b0d3255bfef95601890afd80709";
+    var psgdpr_id_guest = "0";
+    var psgdpr_guest_token = "04644bd45df0ecfc5600d42e1ef2935f1c993817";
+
+    document.addEventListener('DOMContentLoaded', function() {
+        let psgdpr_id_module = "21";
+        let parentForm = $('.gdpr_module_' + psgdpr_id_module).closest('form');
+
+        let toggleFormActive = function() {
+            let parentForm = $('.gdpr_module_' + psgdpr_id_module).closest('form');
+            let checkbox = $('#psgdpr_consent_checkbox_' + psgdpr_id_module);
+            let element = $('.gdpr_module_' + psgdpr_id_module);
+            let iLoopLimit = 0;
+
+            // by default forms submit will be disabled, only will enable if agreement checkbox is checked
+            if (element.prop('checked') != true) {
+                element.closest('form').find('[type="submit"]').attr('disabled', 'disabled');
+            }
+            $(document).on("change" ,'.psgdpr_consent_checkboxes_' + psgdpr_id_module, function() {
+                if ($(this).prop('checked') == true) {
+                    $(this).closest('form').find('[type="submit"]').removeAttr('disabled');
+                } else {
+                    $(this).closest('form').find('[type="submit"]').attr('disabled', 'disabled');
+                }
+
+            });
+        }
+
+        // Triggered on page loading
+        toggleFormActive();
+
+        $(document).on('submit', parentForm, function(event) {
+            $.ajax({
+                type: 'POST',
+                url: psgdpr_front_controller,
+                data: {
+                    ajax: true,
+                    action: 'AddLog',
+                    id_customer: psgdpr_id_customer,
+                    customer_token: psgdpr_customer_token,
+                    id_guest: psgdpr_id_guest,
+                    guest_token: psgdpr_guest_token,
+                    id_module: psgdpr_id_module,
+                },
+                error: function (err) {
+                    console.log(err);
+                }
+            });
+        });
+    });
+</script>
+
+
+					</form>
+	</div>
+</div>
+<style>
+.ft_newsletter form {
+	overflow:visible;
+}
+.block_newsletter_alert {
+	position:absolute;
+	bottom:-30px;
+}
+.block_newsletter form input[type=email]:focus {
+    border: none;
+    padding: 10px 120px 10px 10px;
+}
+</style>
+    	</div>	
+  </div>
+<div class="col-md-2 links footer_block">
+	<h3 class=" hidden-sm-down">Apoio cliente</h3>
+	<div class="title clearfix hidden-md-up" data-target="#footer_2" data-toggle="collapse">
+		<h3>Apoio cliente</h3>
+		<span class="float-xs-right">
+			<span class="navbar-toggler collapse-icons">
+				<i class="material-icons add">keyboard_arrow_down</i>
+				<i class="material-icons remove">keyboard_arrow_up</i>
+			</span>
+		</span>
+	</div>
+      <ul id="footer_2" class="collapse footer_list">
+      	
+        <li>
+          <a
+            id="link-static-page-contact-2"
+            class="cms-page-link"
+            href="https://motorestrela.pt/pt/contacte-nos"
+            title="Use o nosso formulário para nos contactar"
+                      >
+            Contacte-nos
+          </a>
+        </li>
+      	
+        <li>
+          <a
+            id="link-static-page-sitemap-2"
+            class="cms-page-link"
+            href="https://motorestrela.pt/pt/mapa do site"
+            title="Não consegue encontrar o que procura?"
+                      >
+            Mapa do site
+          </a>
+        </li>
+      	
+        <li>
+          <a
+            id="link-static-page-authentication-2"
+            class="cms-page-link"
+            href="https://motorestrela.pt/pt/inicio-de-sessao"
+            title=""
+                      >
+            Autenticação
+          </a>
+        </li>
+      	
+        <li>
+          <a
+            id="link-static-page-my-account-2"
+            class="cms-page-link"
+            href="https://motorestrela.pt/pt/a-minha-conta"
+            title=""
+                      >
+            A minha conta
+          </a>
+        </li>
+      	
+        <li>
+          <a
+            id="link-custom-page-Livro de reclamações-2"
+            class="custom-page-link"
+            href="https://www.livroreclamacoes.pt/inicio"
+            title=""
+             target="_blank"           >
+            Livro de reclamações
+          </a>
+        </li>
+          </ul>
+  </div>
+<div class="col-md-2 links footer_block">
+	<h3 class=" hidden-sm-down">Informação</h3>
+	<div class="title clearfix hidden-md-up" data-target="#footer_3" data-toggle="collapse">
+		<h3>Informação</h3>
+		<span class="float-xs-right">
+			<span class="navbar-toggler collapse-icons">
+				<i class="material-icons add">keyboard_arrow_down</i>
+				<i class="material-icons remove">keyboard_arrow_up</i>
+			</span>
+		</span>
+	</div>
+      <ul id="footer_3" class="collapse footer_list">
+      	
+        <li>
+          <a
+            id="link-cms-page-4-3"
+            class="cms-page-link"
+            href="https://motorestrela.pt/pt/content/4-quem-somos"
+            title="Alguma informação acerca da nossa empresa"
+                      >
+            Quem somos
+          </a>
+        </li>
+      	
+        <li>
+          <a
+            id="link-cms-page-1-3"
+            class="cms-page-link"
+            href="https://motorestrela.pt/pt/content/1-entregas-de-produtos"
+            title=""
+                      >
+            Entregas de produtos
+          </a>
+        </li>
+      	
+        <li>
+          <a
+            id="link-cms-page-2-3"
+            class="cms-page-link"
+            href="https://motorestrela.pt/pt/content/2-termos-de-uso"
+            title="Termos de uso da nossa loja online"
+                      >
+            Termos de uso
+          </a>
+        </li>
+      	
+        <li>
+          <a
+            id="link-cms-page-3-3"
+            class="cms-page-link"
+            href="https://motorestrela.pt/pt/content/3-politica-de-privacidade"
+            title="A nossa política de privacidade"
+                      >
+            Política de Privacidade
+          </a>
+        </li>
+      	
+        <li>
+          <a
+            id="link-cms-page-5-3"
+            class="cms-page-link"
+            href="https://motorestrela.pt/pt/content/5-metodos-de-pagamento"
+            title="Os métodos de pagamento ficam visiveis aquando a finalização da encomenda. Para mais informações contate-nos."
+                      >
+            Métodos de pagamento
+          </a>
+        </li>
+      	
+        <li>
+          <a
+            id="link-cms-page-7-3"
+            class="cms-page-link"
+            href="https://motorestrela.pt/pt/content/7-utilizacao-de-cookies"
+            title=""
+                      >
+            Utilização de cookies
+          </a>
+        </li>
+          </ul>
+  </div>
+<div class="col-md-4 links footer_block">
+      <div class="footer_about_us">
+<div class="logo_footer"><a href="#"><img src="/img/motorestrela/motor-estrela-logo-1616508584.jpg" alt="" /></a></div>
+<div class="desc_info">
+<p class="txt_info">A Motorestrela é uma empresa especializada no comercialização de peças Mercedes-Benz.</p>
+<div class="need_help">
+<p>Contato por WhatsApp</p>
+<p class="phone">+351 914 095 059</p>
+<p>Contato</p>
+<p class="phone">+351 239 068 896</p>
+<p style="font-size: 08px;">chamada para rede fixa nacional</p>
+</div>
+</div>
+</div>
+          
+  <div class="col-footer social_follow "> 
+    <ul>
+              <li class="facebook"><a href="https://www.facebook.com/mestrela.lda.9" target="_blank">Facebook</a></li>
+          </ul>
+  </div>
+
+
+      </div>
+
+			    
+			</div>
+		</div>
+	</div>
+	<div class="footer_bottom">
+		<div class="container">
+			<div class="row">
+				
+					<div class="col-md-4 links footer_block">
+      <div class="copyright">Copyright © <a href="https://motorestrela.pt/">Motorestrela Lda</a></div>
+      </div>
+<div class="col-md-8 links footer_block">
+      <div class="payment"><img src="/img/cms/payment.png" alt="" /></div>
+      </div>
+
+				
+			</div>
+		</div>
+	</div>
+</div>
+        
+    </footer>
+
+    </main>
+	<div class="back-top"><a href= "#" class="back-top-button"></a></div>
+    
+        <script type="text/javascript" src="https://motorestrela.pt/themes/theme_ecolife_tools2/assets/cache/bottom-3aa168119.js" ></script>
+
+
+    
+
+    
+      
+    
+  </body>
+
+</html>

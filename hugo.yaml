@@ -1,0 +1,112 @@
+baseURL: "https://motorestrela.github.io/"
+languageCode: "pt-PT"
+title: "Motor Estrela — Peças Mercedes-Benz & Smart"
+theme: "PaperMod"
+enableRobotsTXT: true
+enableGitInfo: false
+enableEmoji: false
+hasCJKLanguage: false
+pagination:
+  pagerSize: 12
+
+# [SEO] minify output for performance
+minify:
+  disableXML: false
+  minifyOutput: true
+
+# [SEO] sitemap configuration
+sitemap:
+  changeFreq: "monthly"
+  priority: 0.5
+
+# [SEO] outputs — ensure sitemap and RSS are generated
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# [SEO] taxonomies
+taxonomies:
+  category: "categories"
+  tag: "tags"
+
+# [SEO] menu principal
+menu:
+  main:
+    - identifier: "inicio"
+      name: "Início"
+      url: "/"
+      weight: 10
+    - identifier: "sobre"
+      name: "Sobre Nós"
+      url: "/#sobre"
+      weight: 20
+    - identifier: "produtos"
+      name: "Produtos"
+      url: "/#produtos"
+      weight: 30
+    - identifier: "contactos"
+      name: "Contactos"
+      url: "/#contactos"
+      weight: 40
+
+params:
+  # Site description [SEO]
+  description: "Motor Estrela — especialistas em peças originais e usadas para Mercedes-Benz e Smart. Coimbra, Portugal."
+  author: "Motor Estrela"
+
+  # [SEO] Open Graph / Twitter Card defaults
+  images:
+    - "/images/og-image.jpg"
+
+  # PaperMod specific
+  defaultTheme: "light"
+  disableThemeToggle: true
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowRssButtonInSectionTermList: false
+  ShowToc: false
+  disableSpecial1stPost: true
+
+  # [SEO] Home info mode
+  homeInfoParams:
+    Title: "Motor Estrela"
+    Content: "Especialistas em peças originais e usadas para Mercedes-Benz & Smart"
+
+  # Social links
+  socialIcons:
+    - name: "facebook"
+      url: "https://www.facebook.com/mestrela.lda.9"
+    - name: "whatsapp"
+      url: "https://wa.me/351914095059"
+
+  # [SEO] schema / structured data
+  env: "production"
+
+  # Cover image settings
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  # [SEO] canonical and Open Graph
+  canonicalURL: "https://motorestrela.github.io/"
+
+  # Contact info (used in custom partials)
+  contact:
+    phone: "+351 239 068 896"
+    whatsapp: "+351 914 095 059"
+    email: "geral@motorestrela.pt"
+    address: "Coimbra, Portugal"
+    facebook: "https://www.facebook.com/mestrela.lda.9"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+  highlight:
+    style: "monokai"

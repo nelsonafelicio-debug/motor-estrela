@@ -1,0 +1,16 @@
+{
+  "name": "Motor Estrela",
+  "short_name": "Motor Estrela",
+  "description": "Especialistas em peças Mercedes-Benz e Smart — Coimbra, Portugal",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#0f0f0f",
+  "theme_color": "#0f0f0f",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

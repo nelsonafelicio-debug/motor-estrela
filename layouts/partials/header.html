@@ -1,0 +1,99 @@
+<header class="header">
+  <nav class="nav" id="site-nav" aria-label="Navegação principal">
+    <div class="logo">
+      <a href="{{ .Site.BaseURL }}" aria-label="Motor Estrela — página inicial">
+        <img src="/images/logo.jpg"
+             alt="Motor Estrela — Peças Mercedes-Benz e Smart"
+             width="220"
+             height="60"
+             loading="eager" />
+      </a>
+    </div>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-input" aria-hidden="true" />
+    <label for="menu-toggle" class="menu-toggle-label" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </label>
+
+    <ul class="nav-links" role="list">
+      {{- range .Site.Menus.main }}
+      <li>
+        <a href="{{ .URL }}"
+           {{- if eq .URL "/" }} aria-current="page"{{ end }}>
+          {{ .Name }}
+        </a>
+      </li>
+      {{- end }}
+      <li>
+        <a href="tel:{{ .Site.Params.contact.phone | replaceRE `\s` `` }}"
+           class="nav-phone"
+           aria-label="Ligar {{ .Site.Params.contact.phone }}">
+          {{ .Site.Params.contact.phone }}
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <style>
+    .menu-toggle-input { display: none; }
+    .nav-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+    .nav-phone {
+      background: rgba(255,255,255,0.1);
+      padding: 0.4rem 1rem;
+      border-radius: 4px;
+      border: 1px solid rgba(255,255,255,0.2);
+      font-size: 0.8rem !important;
+      white-space: nowrap;
+    }
+    .nav-phone:hover {
+      background: rgba(255,255,255,0.2) !important;
+    }
+    .menu-toggle-label {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+    }
+    .menu-toggle-label span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--me-silver-light);
+      border-radius: 2px;
+      transition: var(--me-transition);
+    }
+    @media (max-width: 768px) {
+      .menu-toggle-label { display: flex; }
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--me-dark);
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        padding: 1rem 0;
+        border-top: 1px solid var(--me-charcoal);
+        z-index: 100;
+      }
+      .nav-links li { width: 100%; }
+      .nav-links a {
+        display: block;
+        padding: 0.75rem 2rem;
+        font-size: 0.9rem !important;
+      }
+      .menu-toggle-input:checked ~ .nav-links { display: flex; }
+    }
+    .header { position: relative; z-index: 200; }
+  </style>
+</header>

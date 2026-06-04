@@ -1,0 +1,109 @@
+{{- /* [SEO] Custom head partial — overrides PaperMod's default head */}}
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  {{- /* [SEC] Security headers via meta http-equiv (GitHub Pages does not support response headers) */}}
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+
+  {{- /* [SEO] Primary meta tags */}}
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+
+  {{- with .Description }}
+    <meta name="description" content="{{ . }}" />
+  {{- else }}
+    <meta name="description" content="{{ .Site.Params.description }}" />
+  {{- end }}
+
+  <meta name="author" content="{{ .Site.Params.author }}" />
+  <meta name="generator" content="Hugo {{ hugo.Version }}" />
+
+  {{- /* [SEO] Canonical URL */}}
+  <link rel="canonical" href="{{ .Permalink }}" />
+
+  {{- /* [SEO] Open Graph tags */}}
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+  <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}" />
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:site_name" content="{{ .Site.Title }}" />
+  <meta property="og:locale" content="pt_PT" />
+  {{- $ogImage := "/images/og-image.jpg" }}
+  {{- with .Params.images }}{{ $ogImage = index . 0 }}{{ end }}
+  <meta property="og:image" content="{{ $ogImage | absURL }}" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="{{ .Site.Title }} — Peças Mercedes-Benz &amp; Smart" />
+
+  {{- /* [SEO] Twitter Card tags */}}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}" />
+  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+  <meta name="twitter:image" content="{{ $ogImage | absURL }}" />
+  <meta name="twitter:image:alt" content="{{ .Site.Title }}" />
+
+  {{- /* [SEO] JSON-LD Structured Data — Organisation schema */}}
+  {{- if .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoPartsStore",
+    "name": "Motor Estrela",
+    "description": "{{ .Site.Params.description }}",
+    "url": "{{ .Site.BaseURL }}",
+    "logo": "{{ "/images/logo.jpg" | absURL }}",
+    "image": "{{ $ogImage | absURL }}",
+    "telephone": "{{ .Site.Params.contact.phone }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Coimbra",
+      "addressCountry": "PT"
+    },
+    "sameAs": [
+      "https://www.facebook.com/mestrela.lda.9"
+    ],
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  }
+  </script>
+  {{- end }}
+
+  {{- /* [SEO] Favicons and webmanifest */}}
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#0f0f0f" />
+
+  {{- /* [SEO] Google Fonts — preconnect first, then font load with display=swap */}}
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" />
+
+  {{- /* Custom CSS via Hugo Pipes (minified in production) */}}
+  {{- $css := resources.Get "css/custom.css" }}
+  {{- if hugo.IsProduction }}
+    {{- $css = $css | minify }}
+  {{- end }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" />
+
+  {{- /* PaperMod's own CSS (keep for base reset) */}}
+  {{- $papermodCSS := resources.Get "css/stylesheet.css" }}
+  {{- if $papermodCSS }}
+    {{- if hugo.IsProduction }}
+      {{- $papermodCSS = $papermodCSS | minify }}
+    {{- end }}
+    <link rel="stylesheet" href="{{ $papermodCSS.RelPermalink }}" />
+  {{- end }}
+
+  {{- /* RSS */}}
+  {{ range .AlternativeOutputFormats -}}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}" />
+  {{ end -}}
+</head>
